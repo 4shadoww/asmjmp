@@ -4,4 +4,4 @@ This program has two modes [-a] address and [-o] offset.
 Address mode calculates the address of the jump using jmp address and offset.
 Offset mode calculates offset of the jmp instruction's address and address where program jumps.
 
-This program is current only tested with short relative jmp and isn't excepted work in any other way.
+This program current only works with short relative jmp and isn't excepted work with near and far jumps.
